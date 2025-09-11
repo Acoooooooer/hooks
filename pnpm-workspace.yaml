@@ -1,0 +1,10 @@
+packages:
+  - packages/*
+ignoredBuiltDependencies:
+  - core-js
+  - core-js-pure
+  - es5-ext
+  - esbuild
+  - husky
+  - swiper
+prefer-workspace-packages: true
