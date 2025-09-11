@@ -35,6 +35,7 @@ export interface Actions<T> {
 //   return [state, actions];
 // }T
 
+
 function useToggle<T>(): [T, Actions<T>];
 
 function useToggle<T>(defaultValue: T): [T, Actions<T>];
