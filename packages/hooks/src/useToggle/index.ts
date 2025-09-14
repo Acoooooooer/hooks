@@ -50,7 +50,7 @@ function useToggle<D, R>(defaultValue = false as D, reverseValue?: R) {
     const reverseValueOrigin = reverseValue ? reverseValue : !defaultValue;
 
     const setLeft = () => setState(defaultValue);
-    const setRight = () => setState();
+    const setRight = () => setState(reverseValueOrigin);
     const set = (value) => setState(value);
     const toggle = () => setState((s) => s === defaultValue ? reverseValueOrigin : defaultValue);
 

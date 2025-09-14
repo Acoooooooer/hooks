@@ -23,6 +23,7 @@ import useMemoizedFn from './useMemoizedFn';
 import useMutationObserver from './useMutationObserver';
 import useMouse from './useMouse';
 import useMount from './useMount';
+import usePermisssions from './usePermisssions';
 import usePrevious from './usePrevious';
 import useRafState from './useRafState';
 import useRequest, { clearCache } from './useRequest';
@@ -71,6 +72,7 @@ export {
   useMouse,
   useMount,
   useMutationObserver,
+  usePermisssions,
   usePrevious,
   useRafState,
   useRequest,
